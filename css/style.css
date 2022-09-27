@@ -1,0 +1,45 @@
+body {
+    background-color: bisque;
+}
+
+.heading {
+    color: red;
+    font-family: 'Ms Madi', cursive;
+    font-size: 3rem;
+    position: relative;
+    animation: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header {
+    0% {top: -250px}
+    100% {top: 70px}
+}
+.list {
+    position: relative;
+    color: brown;
+    font-family: 'Montserrat', sans-serif;
+    animation: list;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes list {
+    0% {left: -1000px}
+    85% {left: 50px}
+    100% {left: 0}
+}
+
+.jrk {
+    position: relative;
+    color: blue;
+    animation: jrk;
+    animation-duration: 5s;
+}
+
+@keyframes jrk {
+    0% {right: -1000px}
+    85% {right: 50px}
+    100% {right: 0}
+}
